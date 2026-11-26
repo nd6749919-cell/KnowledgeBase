@@ -11,7 +11,7 @@ We don't cover DNS filtering here. It's a different way of blocking ads, with it
 
 :::  
 
-<iframe width="560" height="315" class="youtube-video" src="https://www.youtube-nocookie.com/embed/Xq_CUdh0T_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" class="youtube-video" src="https://www.youtube-nocookie.com/embed/Xq_CUdh0T_w" title="YouTube-videoafspiller" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## General principle
 
@@ -51,7 +51,7 @@ Every web page has a Document Object Model (DOM), an HTML document containing th
 
 This method allows you to avoid above-mentioned blank spaces and ad leftovers, as well as perform other more complicated tasks.
 
-### HTML filtering rules
+### HTML-filtreringsregler
 
 In most cases, it's enough to use the above-mentioned basic and cosmetic rules to filter ads. But when it is necessary to change the HTML code of the page itself before it is loaded, you need filtering rules for HTML content. These rules allow you to specify the HTML elements to be cut out before the browser even loads the page.
 

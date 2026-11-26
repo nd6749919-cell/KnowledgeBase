@@ -1,5 +1,5 @@
 ---
-title: 功能
+title: Features
 sidebar_position: 1
 ---
 
@@ -30,6 +30,10 @@ sidebar_position: 1
 - [Safari 工具栏菜单](/adguard-mini-for-mac/features/toolbar-menu.md)
 
   Safari 工具栏中的便捷菜单。
+
+- [System-wide protection](/adguard-mini-for-mac/features/system-wide-protection.md)
+
+  A feature that blocks ads and trackers not just in Safari, but across other apps on your Mac.
 
 - [完整版](/adguard-mini-for-mac/features/full-version.md)
 

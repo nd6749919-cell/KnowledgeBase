@@ -1,36 +1,36 @@
 ---
-title: Statistics
+title: Statistik
 sidebar_position: 1
 ---
 
-In _Statistics_, you see a complete picture of what is happening with the traffic on your computer: how many requests are being sent and to which companies, how much data is being uploaded and downloaded, what requests are being blocked. You can check statistics for various time frames: all time, the last 14 days, the last 7 days, the last 24 hours, and broken down by ads, trackers, or requests.
+Under _Statistik_ ses et komplet billede af statussen på computerens trafik: Antal forespørgsler sendt, og til hvilke firmaer, mængden af uploadet og downloadet data, antal blokerede forespørgsler. Statistik kan tjekkes for forskellige tidsrammer: Samtlige tidsinntervaller, de seneste 14 dage, de seneste 7 dage og de seneste 24 timer, opdelt efter annoncer, trackere eller forespørgsler.
 
-![Customize stats \*border](https://cdn.adtidy.org/content/kb/ad_blocker/windows/version_8/statistics/stats.png)
+![Tilpasset statistik \*border](https://cdn.adtidy.org/content/kb/ad_blocker/windows/version_8/statistics/stats.png)
 
 :::note
 
-All statistics are stored locally on your device. We only calculate how much data is used — we don’t see what websites you visit. You can also turn off statistics if you don’t need them.
+Alle statistikker gemmes lokalt på enheden. Vi beregner kun, hvor meget data, der forbruges — vi kan ikke se, hvilke websteder, som besøges. Statistik kan også deaktiveres, såfremt de ikke behøves.
 
 :::
 
-_Open Filtering log_ shows the last 10,000 requests processed by AdGuard
+_Åbn Filtreringslog_ viser de seneste 10.000 forespørgsler behandlet af AdGuard
 
 ## Apps
 
-This section displays stats for all apps installed on your device. You can sort apps by the number of blocked ads or trackers or by the number of sent requests.
+Dette afsnit viser statistik for alle apps installeret på enheden. Apps kan sorteres efter antallet af blokerede annoncer eller trackere, eller efter antallet af sendte forespørgsler.
 
-If you click an app, you can see its full stats: the requests it sends and the domains and companies it reaches out to.
+Ved et klik på en app kan dens fulde statistik ses: De forespørgsler, den sender og de domæner og firmaer, den opretter forbindelse til.
 
 ## DNS
 
-This section shows data about the requests handled by DNS protection. You can see the total number of requests sent and how many were blocked by AdGuard
+Dette afsnit viser data om de forespørgsler, som håndteres af DNS-beskyttelsen. Her kan ses det samlede antal sendte forespørgsler, og hvor mange, som blev blokeret af AdGuard
 
-## Companies
+## Virksomheder
 
-This section displays companies that your device reaches out to. What does it mean?
+Dette afsnit viser virksomheder, som enheden opretter forbindelse til. Hvad betyder det?
 
-AdGuard detects the domains your device sends requests to and determines which companies they belong to. A database of companies can be found on [GitHub](https://github.com/AdguardTeam/companiesdb).
+AdGuard registrerer de domæner, enheden sender forespørgsler til og fastslår, hvilke virksomheder, de tilhører. En database over virksomheder kan findes på [GitHub](https://github.com/AdguardTeam/companiesdb).
 
-## Data usage
+## Dataforbrug
 
-This section shows the amount of downloaded and uploaded data and saved traffic.
+Dette afsnit viser mængden af downloadet og uploadet data samt sparet trafik.

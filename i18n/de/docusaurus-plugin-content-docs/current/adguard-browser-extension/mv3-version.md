@@ -1,39 +1,43 @@
 ---
-title: AdGuard Browsererweiterung für Chrome MV3
+title: AdGuard-Browsererweiterung MV3
 sidebar_position: 5
 ---
 
-Da die MV2-Erweiterungen im Chrome Web Store eingestellt werden, müssen Chrome-Benutzer:innen möglicherweise zu MV3-Erweiterungen wechseln, die mit dem neuen Manifest V3-API von Chrome kompatibel sind. Unsere Gedanken zu diesem Thema werden in [unserem Blog](https://adguard.com/en/blog/tag/manifest-v3.html) ausführlich erörtert.
+[Chrome hat alle verbliebenen Manifest-V2-Erweiterungen (MV2) aus dem Chrome Web Store entfernt](https://adguard.com/en/blog/adguard-adblocker-manifestv2-removal.html). Auch andere Chromium-basierte Browser, darunter Opera und Microsoft Edge, stellen auf MV3 um. Nutzer dieser Browser benötigen eine MV3-Erweiterung, die mit der neuen Manifest-V3-API kompatibel ist. Unsere Gedanken zu diesem Thema werden in [unserem Blog](https://adguard.com/en/blog/tag/manifest-v3.html) ausführlich erörtert.
 
 Unsere MV3-Erweiterung sperrt effektiv Werbung und Tracker und verwaltet gleichzeitig nahtlos soziale Widgets, Banner und Videoanzeigen. Die meisten Benutzer:innen werden keine Unterschiede bei der Bedienung feststellen, aber es gibt einige Einschränkungen und Änderungen, die zu beachten sind.
 
 ## Wo Sie unsere Erweiterungen finden
 
-Die **MV3-Version** ersetzt unsere alte Erweiterung im [Chrome Web Store](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg).
+**Die MV3-Version** ist unsere wichtigste Chrome-Erweiterung und im [Chrome Web Store](https://chromewebstore.google.com/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg) verfügbar. MV3-Versionen werden auch unter [GitHub Releases](https://github.com/AdguardTeam/AdguardBrowserExtension/releases/latest) veröffentlicht: als `chrome-mv3.zip` für Chrome und `opera-mv3.zip` für Opera.
 
-Die **Beta-Version von MV3** wird weiterhin im [Chrome Web Store](https://chromewebstore.google.com/detail/adguard-adblocker-mv3-exp/apjcbfpjihpedihablmalmbbhjpklbdf) verfügbar sein.
+Die **MV3-Beta-Version** ist im [Chrome Web Store](https://chromewebstore.google.com/detail/adguard-adblocker-mv3-exp/apjcbfpjihpedihablmalmbbhjpklbdf) verfügbar.
 
-Die alte Beta-Erweiterung wird in [**AdGuard Werbeblocker MV2**](https://chromewebstore.google.com/detail/adguard-adblocker-beta/gfggjaccafhcbfogfkogggoepomehbjl) umbenannt und wird unterstützt, bis Google sie abkündigt.
+**AdGuard Werbeblocker MV2** wurde zusammen mit allen anderen MV2-Erweiterungen aus dem Chrome Web Store entfernt. MV2 funktioniert weiterhin in Firefox und in Chromium-basierten Browsern, die die Unterstützung dafür beibehalten haben. Weitere Informationen finden Sie unter [So nutzen Sie AdGuard weiter, nachdem Chrome MV2 entfernt hat](/adguard-browser-extension/solving-problems/mv2-removal-in-chrome/).
 
 ## Wichtigste Änderungen bei Funktionen und Einstellungen
 
-- **Keine automatische und manuelle Filteraktualisierung.** Die Optionen _Filter automatisch aktualisieren_ und _Filteraktualisierung prüfen_ sind auf der Registerkarte _Filter_ nicht mehr verfügbar. Da einige der Regeln jetzt in DNR-Form angewendet werden, können wir die Filter nicht auf Anfrage aktualisieren, sondern nur durch den gesamten Prozess der Aktualisierung der Erweiterung zusammen mit der Überprüfung in den Stores.
+- **Filteraktualisierungen.** Die Optionen _Filter automatisch aktualisieren_ und _Filteraktualisierung prüfen_ sind im Tab _Filter_ nicht verfügbar: Regeln, die mit der Erweiterung ausgeliefert werden, können erst mit einer neuen Version der Erweiterung nach der Prüfung im Store aktualisiert werden. Lassen Sie automatische Updates der Erweiterung in Ihrem Browser aktiviert.
 
-- **Filter-Protokoll**
+  Benutzerdefinierte Filter, die Sie per URL hinzufügen, werden unabhängig von Updates der Erweiterung selbstständig aktualisiert.
 
-  ![Filtering log \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/filtering_log.png)
+- **AdGuard Quick Fixes-Filter.** Da die integrierten Regeln nicht auf Anfrage aktualisiert werden können, enthält die Erweiterung den Filter _AdGuard Quick Fixes_. Er verwendet dynamische Regeln, um zwischen den Releases auf neue Werbung und Fehler auf Websites zu reagieren. Lassen Sie ihn deshalb aktiviert.
 
-  Aufgrund von DNR-Beschränkungen können wir nicht genau angeben, welche Regel funktioniert hat, aber wir werden eine „mutmaßliche Regel, die ausgelöst wurde“ auf der Grundlage unserer Engine angeben. Um genaue Informationen zu erhalten, müssen Sie die „entpackte" Form der Erweiterung selbst in Ihrem Browser installieren. Eine ausführliche Anleitung dazu finden Sie in einem [separaten Artikel](/adguard-browser-extension/solving-problems/debug-rules/).
+- **Filterungsprotokoll**
+
+  ![Filterungsprotokoll \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/filtering_log.png)
+
+  Aufgrund von DNR-Beschränkungen können wir nicht genau angeben, welche Regel funktioniert hat, aber wir werden eine „mutmaßliche Regel, die ausgelöst wurde“ auf der Grundlage unserer Engine angeben. Für genaue Informationen müssen Sie die Erweiterung selbst in entpackter Form in Ihrem Browser installieren. Eine ausführliche Anleitung dazu finden Sie in einem [separaten Artikel](/adguard-browser-extension/solving-problems/debug-rules/).
 
 - _Tracking-Schutz_ (früher bekannt als _Privatsphären-Modus_)
 
-  ![Tracking protection \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/tracking_protection_mv3.png)
+  ![Tracking-Schutz \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/tracking_protection_mv3.png)
 
-  Es gibt keinen Abschnitt _Cookies_ sowie _Selbstzerstörung von Erstanbieter-Cookies_ und _Selbstzerstörung von Drittanbieter-Cookies_, da wir die TTL von Cookies nicht mit deklarativen Regeln festlegen können.
+  Der Abschnitt _Cookies_ sowie die Optionen _Selbstzerstörung von Erstanbieter-Cookies_ und _Selbstzerstörung von Drittanbieter-Cookies_ sind nicht verfügbar, da sich die Lebensdauer von Cookies mit deklarativen Regeln nicht festlegen lässt.
 
-- Der _Schutz vor Phishing und Malware_ ist in den allgemeinen Einstellungen nicht mehr verfügbar. Um sich vor bösartigen Websites und Betrügereien zu schützen, aktivieren Sie die entsprechenden _Sicherheitsfilter_ im Tab _Filter_.
+- _Schutz vor Phishing und Malware_ ist in den allgemeinen Einstellungen nicht mehr verfügbar. Um sich vor bösartigen Websites und Betrügereien zu schützen, aktivieren Sie die entsprechenden _Sicherheitsfilter_ im Tab _Filter_.
 
-  ![Security \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/security_filters.png)
+  ![Sicherheit \*border](https://cdn.adtidy.org/content/Kb/ad_blocker/browser_extension/security_filters.png)
 
 ## Beschränkungen
 

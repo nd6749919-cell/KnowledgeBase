@@ -1,5 +1,5 @@
 ---
-title: Funzioni
+title: Features
 sidebar_position: 1
 ---
 
@@ -30,6 +30,10 @@ sidebar_position: 1
 - [Menu della barra degli strumenti di Safari](/adguard-mini-for-mac/features/toolbar-menu.md)
 
   Un pratico menu nella barra degli strumenti di Safari
+
+- [System-wide protection](/adguard-mini-for-mac/features/system-wide-protection.md)
+
+  A feature that blocks ads and trackers not just in Safari, but across other apps on your Mac.
 
 - [Versione Completa](/adguard-mini-for-mac/features/full-version.md)
 

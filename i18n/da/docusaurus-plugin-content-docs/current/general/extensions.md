@@ -99,6 +99,10 @@ Here we will describe some of the most popular userscript catalogs.
 
 [NamuLink](https://github.com/FilteringDev/NamuLink) er et open source-brugerskript, der fjerner Naver PowerLink-annoncer fra NamuWiki ved at omgå webstedets avancerede linksløringsmekanismer. Projektet vedligeholdes af AdGuard-teamet og det generelle adblocking-fællesskab.
 
+#### Crackle
+
+[Crackle](https://github.com/FilteringDev/crackle/) er et open source-brugerscript designet til at fjerne annoncer og omgå anti-adblock-foranstaltninger på Chzzk-webplatformen. Det registrerer og erstatter annoncerelaterede svar brugt af Chzzks-annoncesystemer med kompatible annoncefrie svar og deaktiverer pre-roll- og mid-roll-videoreklamer.
+
 #### Community
 
 If you like the idea of customizing your browser with userscripts and have questions, you can ask them on one of these websites:
@@ -113,7 +117,7 @@ If you like the idea of customizing your browser with userscripts and have quest
 
 If you are developing your own userscript and want to test how it works with AdGuard, you can request a license by filling in [the form](https://surveys.adguard.com/en/for_developers_request/form.html).
 
-#### Compatibility
+#### Kompatibilitet
 
 ##### Metadata block
 
@@ -173,7 +177,7 @@ All listed old Greasemonkey functions are deprecated but still supported.
 
 You can find more information about Greasemonkey API in [its manual](https://wiki.greasespot.net/Greasemonkey_Manual:API).
 
-#### Example
+#### Eksempel
 
 ```javascript
 // ==UserScript==
@@ -347,7 +351,7 @@ divElement.innerHTML = ADG_policyApi.convertPropertyToTrusted("div", "innerHTML"
 
 #### Matching SPA sites
 
-:::info Compatibility
+:::info Kompatibilitet
 
 This section only applies to AdGuard for Windows, AdGuard for Mac, AdGuard for Android, and AdGuard for Linux with [CoreLibs] v1.19 or later.
 
@@ -445,7 +449,7 @@ You can download userstyles from various websites. One of the most popular users
 
 4. Press the [+] button and paste the userstyle link
 
-5. Udført!
+5. Færdig!
 
 If you’re familiar with CSS rules, you can also create userstyles yourself.
 
@@ -488,7 +492,7 @@ We don’t support userstyles that contain `@var` or `@advanced` in the metadata
 
 5. Once you’re finished, press _Save and Close_. Your new userstyle has been successfully added to AdGuard
 
-### Example
+### Eksempel
 
 ```css
 /* ==UserStyle==

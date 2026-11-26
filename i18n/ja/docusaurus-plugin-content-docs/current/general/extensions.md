@@ -5,7 +5,7 @@ sidebar_position: 6
 
 ## ユーザースクリプト
 
-ユーザースクリプト（私たちは "エクステンション"とも呼んでいます）は、事実上、JavaScriptで書かれたミニプログラムです。 ユーザースクリプトは1つまたは複数のウェブサイトの機能を変更または拡張します。 AdGuardユーザーの多くは、「AdGuard アシスタント」「ポップアップブロッカー」「AdGuard Extra」などのユーザースクリプトをすでにご存知かもしれません。
+ユーザースクリプト（私たちは "エクステンション"とも呼んでいます）は、事実上、JavaScriptで書かれたミニプログラムです。ユーザースクリプトは1つまたは複数のウェブサイトの機能を変更または拡張します。 AdGuardユーザーの多くは、「AdGuard アシスタント」「ポップアップブロッカー」「AdGuard Extra」などのユーザースクリプトをすでにご存知かもしれません。
 
 :::note Supported apps
 
@@ -51,7 +51,7 @@ These userscripts are not developed by AdGuard, and therefore we can't give a 10
 
 #### Don't track me Google
 
-このスクリプトは、Googleの検索結果のリンクからGoogleのトラッキング機能を削除します。 検索結果の読み込みを高速化し、右クリックやタップでリンクURLをコピーできるようにします。
+このスクリプトは、Googleの検索結果のリンクからGoogleのトラッキング機能を削除します。検索結果の読み込みを高速化し、右クリックやタップでリンクURLをコピーできるようにします。
 
 Its source code is [available on GitHub](https://github.com/Rob--W/dont-track-me-google). This userscript can be downloaded from [GreasyFork](https://greasyfork.org/en/scripts/428243-don-t-track-me-google) and installed in any AdGuard CoreLibs-based app.
 
@@ -79,7 +79,7 @@ tinyShield is primarily designed for Korean websites protected by Ad-Shield, but
 
 ### さらに多くのユーザースクリプトはどこで入手できますか？
 
-Since userscripts are mainly created by enthusiasts, you should be cautious when installing them. 未知のソースからのスクリプトは、潜在的なリスクを伴います。 しかし、注意深く責任を持ってインストールすれば、ウェブサイトの利用をより便利にしてくれる興味深いスクリプトは実に多種多様です。
+Since userscripts are mainly created by enthusiasts, you should be cautious when installing them. 未知のソースからのスクリプトは、潜在的なリスクを伴います。しかし、注意深く責任を持ってインストールすれば、ウェブサイトの利用をより便利にしてくれる興味深いスクリプトは実に多種多様です。
 
 以下で、最も人気なユーザースクリプト・カタログのいくつかをご紹介します。
 
@@ -98,6 +98,10 @@ Since userscripts are mainly created by enthusiasts, you should be cautious when
 #### NamuLink
 
 [NamuLink](https://github.com/FilteringDev/NamuLink) is an open-source userscript that removes Naver PowerLink advertisements from NamuWiki by bypassing the site's advanced link obfuscation mechanisms. The project is maintained by the AdGuard team and the broader ad-blocking community.
+
+#### Crackle
+
+[Crackle](https://github.com/FilteringDev/crackle/) is an open-source userscript designed to remove ads and bypass anti-adblock measures on the Chzzk web platform. It detects and replaces ad-related responses used by Chzzk’s advertising systems with compatible ad-free responses and disables pre-roll and mid-roll video ads.
 
 #### Community
 

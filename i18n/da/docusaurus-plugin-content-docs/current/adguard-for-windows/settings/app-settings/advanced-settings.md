@@ -11,7 +11,7 @@ Afsnittet _Avancerede indstillinger_ indeholder indstillinger, som går ud over,
 
 :::
 
-## Undtag app fra filtrering ved at angive den fulde sti
+## Undtag app fra filtrering ved at angive dens fulde sti
 
 Skal AdGuard overspringe filtrering af en bestemt app, angiv da dens fulde filsti hér. Der kan tilføjes flere apps ved at adskille deres stier med semikolon.
 
@@ -27,72 +27,72 @@ Når slået til, detekterer AdGuard automatisk filterabonnementslink (såsom `ab
 
 Er denne indstilling slået til, omdirigeret AdGuard al trafik og ruter den til den lokale proxyserver for filtrering.
 
-If it’s turned off, AdGuard filters traffic directly — without redirecting it. In this mode, Windows sees AdGuard as the only app connecting to the Internet, since all other apps go through it. This can slightly improve performance but may reduce the effectiveness of the system firewall.
+Er den slået fra, filtrerer AdGuard trafikken direkte — uden at omdirigere den. I denne tilstand ser Windows AdGuard som den eneste app, der opretter forbindelse til internet, da alle andre apps går igennem den. Dette kan forbedre ydeevnen en smule, men kan reducere effektiviteten af systemets firewall.
 
-## Open AdGuard at system start-up
+## Åbn AdGuard ved systemopstart
 
-Enable this option to launch the AdGuard window automatically when your PC starts.
+Aktivér denne indstilling for automatisk at åbne AdGuard-vinduet, når PC'en starter.
 
-## Enable filtering at system start-up
+## Aktivér filtrering ved systemstart
 
-Since version 7.12, AdGuard doesn’t start filtering traffic automatically after you boot your PC — unless the _Launch AdGuard at system start-up_ option is enabled. Instead, it runs in a passive “idle” mode.
+Siden version 7.12 starter AdGuard ikke automatisk trafikfiltrering efter opstart af PC'en — medmindre indstillingen _Start AdGuard ved systemstart_ er aktiveret. I stedet kører den i en passiv "tomgangstilstand".
 
-Turning this on allows AdGuard to filter traffic immediately, even if the app hasn’t been opened yet.
+Slås denne til, tillader det AdGuard at filtrere trafik med det samme, selvom appen endnu ikke er blevet åbnet.
 
-## Filter localhost
+## Filtrér localhost
 
-Enable this to allow AdGuard to filter loopback (localhost) traffic, which some apps use to communicate within the system. If AdGuard VPN is installed, this setting is always on because the VPN requires it to work properly.
+Aktivér denne for at tillade AdGuard at filtrere loopback (localhost) trafik, som nogle apps bruger til kommunikation inden for systemet. Hvis AdGuard VPN er installeret, er denne indstilling altid slået til, da VPN'et kræver den for at fungere korrekt.
 
 ## Optag HAR
 
-This is for debugging only. When enabled, AdGuard will create a HAR file (HTTP Archive 1.2 format) with detailed info about all filtered requests. You can open it in apps like Fiddler.
+Dette er kun til fejlfinding. Når aktiveret, vil AdGuard oprette en HAR-fil (HTTP Archive 1.2-format) med detaljerede oplysninger om alle filtrerede forespørgsler. Den kan åbnes i apps såsom Fiddler.
 
-Keep in mind: it may slow down your browsing.
+Husk: Det kan nedsætte webbrowsinghastigheden.
 
-## Show QUIC in the filtering log
+## Vis QUIC i filtreringsloggen
 
-When enabled, AdGuard will include QUIC protocol traffic in the filtering log — but only for blocked requests.
+Når aktiveret, vil AdGuard inkludere QUIC-protokoltrafik i filtreringsloggen — dog kun for blokerede forespørgsler.
 
-## Block Java
+## Blokér Java
 
-Some websites still use Java plug-ins, which rely on outdated and insecure technology. You can disable these plug-ins for security.
+Nogle websteder bruger stadig Java-plugins, som er afhængige af forældet og usikker teknologi. Disse plug-ins kan deaktiveres af sikkerhedshensyn.
 
-Using the _Block Java_ option does not affect JavaScript — it will remain enabled.
+Brug af indstillingen _Blokér Java_ påvirker ikke JavaScript — det forbliver aktiveret.
 
-## Blocking mode for DNS rules
+## Blokeringstilstand for DNS-regler
 
-Choose how AdGuard responds when a domain is blocked by a DNS rule based on the [hosts-style syntax](https://adguard-dns.io/kb/general/dns-filtering-syntax/#etc-hosts-syntax).
+Vælg, hvordan AdGuard svarer, når et domæne blokeres af en DNS-regel baseret på [hosts-lignende syntaks](https://adguard-dns.io/kb/general/dns-filtering-syntax/#etc-hosts-syntax).
 
-- Return a `REFUSED` error
-- Return a `NXDOMAIN` error
-- Return a custom IP address
+- Returnér en `REFUSED`-fejl
+- Returnér en `NXDOMAIN`-fejl
+- Returnér tilpasset IP-adresse
 
-### Custom IPv4 address
+### Tilpasset IPv4-adr.
 
-If _Custom IP address_ is selected in _Blocking mode for DNS rules_, this IP address will be returned in response to blocked A requests. If none are specified, AdGuard will reply with the default REFUSED error.
+Hvis _Tilpasset IP-adresse_ er valgt i _Blokeringstilstand for DNS-regler_, returneres denne IP-adresse som svar på blokerede A-forespørgsler. Er ingen angivet, svarer AdGuard med standardfejlen REFUSED.
 
-### Custom IPv6 address
+### Tilpasset IPv6-adr.
 
-If _Custom IP address_ is selected in _Blocking mode for DNS rules_, this IP address will be returned in response to blocked AAAA requests. If none are specified, AdGuard will reply with the default REFUSED error.
+Hvis _Tilpasset IP-adresse_ er valgt i _Blokeringstilstand for DNS-regler_, returneres denne IP-adresse som svar på blokerede AAAA-forespørgsler. Er ingen angivet, svarer AdGuard med standardfejlen REFUSED.
 
-## Fallback servers
+## Reserveservere (fallback)
 
-Set backup DNS servers here. AdGuard will use them if the main DNS server doesn’t respond within the timeout you set. You can:
+Opsæt reserve-DNS-servere her. AdGuard bruger disse, hvis den primære DNS-server ikke svarer inden for den angivne timeout. Det vil være muligt at:
 
-- Use your system’s default DNS servers
-- Add custom fallback servers
-- Or choose not to use fallback servers at all
+- Anvende systemets standard DNS-servere
+- Tilføje tilpassede reserveservere
+- Eller vælge slet ikke at bruge reserveservere
 
-## DNS server timeout
+## DNS-server timeout
 
-Specify how long (in milliseconds) AdGuard should wait for a DNS response before switching to a fallback server. If left empty or invalid, the default is 5000 ms (5 seconds).
+Angiv, hvor længe (i millisekunder) AdGuard skal afvente et DNS-svar, før der skiftes til en reserveserver. Efterlades feltet tomt eller med ugyldigt indhold, er standardværdien 5.000 ms (5 sekunder).
 
-## Custom bootstrap addresses
+## Tilpassede bootstrap-adresser
 
-A bootstrap is an intermediate DNS server used to get the IP address of the secure DNS server you chose earlier in DNS protection. Such a “middle ground” is needed when using protocols that denote the server address by letters (such as DNS-over-TLS, for example). In this case, the bootstrap acts as a translator, transforming the letters into numbers your system can understand.
+En bootstrap er en mellemliggende DNS-server brugt til at hente IP-adressen på den sikre DNS-server, der blev valgte tidligere i DNS-beskyttelsen. En sådan "mellemvej" er nødvendig ved brug af protokoller, som angiver serveradressen med bogstaver (såsom f.eks. DNS-over-TLS). I så tilfælde fungerer bootstrap'en som en oversætter, der omdanner bogstaverne til tal, som systemet kan forstå.
 
-But if needed, you can specify different IP addresses here — they’ll be tried in the order from top to bottom. If none work or nothing is entered, AdGuard will fall back to system defaults.
+Om nødvendigt kan der dog angives forskellige IP-adresser her — de vil blive prøvet i rækkefølgen fra top til bund. Hvis ingen fungerer, eller intet er indtastet, falder AdGuard tilbage til systemstandarderne.
 
-## DNS exclusions
+## DNS-undtagelser
 
-Domains listed here bypass AdGuard DNS servers. Their requests go through the system’s default resolver, and AdGuard does not apply any blocking rules to them.
+Domæner opført her omgår AdGuard DNS-servere. Deres forespørgsler går igennem systemets standardopløser, og AdGuard anvender ikke nogen blokeringsregler på dem.

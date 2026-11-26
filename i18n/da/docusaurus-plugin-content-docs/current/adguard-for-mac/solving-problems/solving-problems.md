@@ -5,20 +5,22 @@ sidebar_position: 1
 
 :::info
 
-Denne artikel dækker AdGuard til Mac, en multifunktionel adblocker, der beskytter enheden på systemniveau. For at se, hvordan den fungerer, [download AdGuard-appen](https://agrd.io/download-kb-adblock)
+Denne artikel omhandler AdGuard til Mac, en multifunktionel adblocker, der beskytter enheden på systemniveau. For at se, hvordan den fungerer, [download AdGuard-appen](https://agrd.io/download-kb-adblock)
 
 :::
 
-Here are some problems you may encounter and workarounds, guides, and instructions you may need.
+Her er nogle problemer, som kan opleves, og løsninger samt guider og vejledninger, der muligvis bliver brug for.
 
-- [Manual certificate installation](/adguard-for-mac/solving-problems/manual-certificate-installation.md)
-- [Protection cannot be enabled](/adguard-for-mac/solving-problems/protection-cannot-be-enabled.md)
-- [How to install AdGuard on macOS High Sierra and above](/adguard-for-mac/solving-problems/high-sierra-compatibility.md)
-- [Compatibility issues with different macOS versions](/adguard-for-mac/solving-problems/big-sur-issues.md)
-- [Installation problems solving](/adguard-for-mac/solving-problems/installation-issues.md)
-- [Launch issues](/adguard-for-mac/solving-problems/launch-issues.md)
-- [iCloud Private Relay and AdGuard](/adguard-for-mac/solving-problems/icloud-private-relay.md)
-- [Protect Mail Activity and AdGuard](/adguard-for-mac/solving-problems/protect-mail-activity.md)
-- [Advanced Settings guide](/adguard-for-mac/solving-problems/advanced-settings.md)
-- [Setting up filtering in Tor Browser](/adguard-for-mac/solving-problems/tor-filtering.md)
-- [Incompatibility with Screen Time](/adguard-for-mac/solving-problems/screen-time-issues.md)
+- [Manuel certifikatinstallation](/adguard-for-mac/solving-problems/manual-certificate-installation.md)
+- [Beskyttelse kan ikke aktiveres](/adguard-for-mac/solving-problems/protection-cannot-be-enabled.md)
+- [Sådan installeres AdGuard på macOS High Sierra og senere](/adguard-for-mac/solving-problems/high-sierra-compatibility.md)
+- [Kompatibilitetsproblemer med forskellige macOS-versioner](/adguard-for-mac/solving-problems/big-sur-issues.md)
+- [Løsning af installationsproblemer](/adguard-for-mac/solving-problems/installation-issues.md)
+- [Startproblemer](/adguard-for-mac/solving-problems/launch-issues.md)
+- [iCloud Private Relay og AdGuard](/adguard-for-mac/solving-problems/icloud-private-relay.md)
+- [Beskyttelse af Mailaktivitet og AdGuard](/adguard-for-mac/solving-problems/protect-mail-activity.md)
+- [Guide til Avancerede indstillinger](/adguard-for-mac/solving-problems/advanced-settings.md)
+- [Opsætning af filtrering i Tor Browser](/adguard-for-mac/solving-problems/tor-filtering.md)
+- [Inkompatibilitet med Screen Time](/adguard-for-mac/solving-problems/screen-time-issues.md)
+- [Sådan fungerer AdGuard Browser Assistent på macOS Golden Gate og senere](/adguard-for-mac/solving-problems/browser-assistant-macos-27.md)
+- [Hvorfor AdGuard vises i Fuld diskadgang på macOS](/docs/adguard-for-mac/solving-problems/adguard-in-full-disk-access.md)

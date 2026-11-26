@@ -1,6 +1,6 @@
 ---
-title: AdGuard General
+title: AdGuard Generelt
 sidebar_position: 2
 ---
 
-_AdGuard General_ is a content blocker that combines the most essential filters for blocking ads. We recommend keeping the AdGuard Base Filter always enabled.
+_AdGuard Generel_ er en indholdsblocker, der kombinerer de vigtigste adblockingfiltre. Det anbefales, at AdGuard Basis-filter altid er aktiveret.

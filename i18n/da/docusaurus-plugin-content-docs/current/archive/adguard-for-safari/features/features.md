@@ -3,22 +3,22 @@ title: Funktioner
 sidebar_position: 1
 ---
 
-- [General](/archive/adguard-for-safari/features/general.md)
+- [Generel](/archive/adguard-for-safari/features/general.md)
 
-  Basic features, including notifications, update intervals, and logging level
+  Basisfunktioner, herunder notifikationer, opdateringsintervaller og logningsniveau
 
-- [Filters](/archive/adguard-for-safari/features/filters.md)
+- [Filtre](/archive/adguard-for-safari/features/filters.md)
 
-  Different filters that allow you to customize ad blocking
+  Forskellige filtre, som muliggør tilpasset adblocking
 
-- [Content Blockers](/archive/adguard-for-safari/features/content-blockers/content-blockers.md)
+- [Indholdsblockere](/archive/adguard-for-safari/features/content-blockers/content-blockers.md)
 
-  Six thematic content blockers that conform to Apple’s restrictions
+  Seks tematiske indholdsblockere, som overholder Apples restriktioner
 
-- [User rules](/archive/adguard-for-safari/features/rules.md)
+- [Brugerregler](/archive/adguard-for-safari/features/rules.md)
 
-  Custom filtering rules to fine-tune ad blocking
+  Tilpassede filtreringsregler til finjustering af adblocking
 
-- [About](/archive/adguard-for-safari/features/about.md)
+- [Om](/archive/adguard-for-safari/features/about.md)
 
-  A section with links to privacy documents, GitHub repository, and version history
+  Et afsnit med links til fortrolighedsdokumenter, GitHub-repo'et og versionshistorik

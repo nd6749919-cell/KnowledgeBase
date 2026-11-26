@@ -25,9 +25,9 @@ Denne artikel omhandler AdGuard Browser Extension, der kun beskytter webbrowsere
 
   Kompatibilitet af AdGuard Browser Extension med AdGuard computer-apps
 
-- [AdGuard Browser Extension til Chrome MV3](/adguard-browser-extension/mv3-version/)
+- [AdGuard Browser Extension MV3](/adguard-browser-extension/mv3-version/)
 
-  En separat AdGuard Browser Extension kompatibel med Manifest V3-API'en
+  MV3-versioner af AdGuard Browser Extension til Chrome, Microsoft Edge og Opera
 
 - [Browserbeskyttede sider](/adguard-browser-extension/protected-pages)
 

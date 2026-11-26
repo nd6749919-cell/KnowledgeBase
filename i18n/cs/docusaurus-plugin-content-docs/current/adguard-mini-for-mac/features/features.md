@@ -1,5 +1,5 @@
 ---
-title: Funkce
+title: Features
 sidebar_position: 1
 ---
 
@@ -30,6 +30,10 @@ sidebar_position: 1
 - [Nabídka panelu nástrojů Safari](/adguard-mini-for-mac/features/toolbar-menu.md)
 
   Praktické menu v nástrojové liště Safari
+
+- [System-wide protection](/adguard-mini-for-mac/features/system-wide-protection.md)
+
+  A feature that blocks ads and trackers not just in Safari, but across other apps on your Mac.
 
 - [Plná verze](/adguard-mini-for-mac/features/full-version.md)
 

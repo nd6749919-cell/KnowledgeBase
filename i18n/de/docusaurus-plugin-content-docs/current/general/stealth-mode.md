@@ -25,6 +25,28 @@ Diese Funktion blockiert Tracker und Web-Analyse-Tools mit dem AdGuard Tracking-
 
 Wenn Sie diese Funktion aktivieren, verwendet AdGuard seinen URL-Tracking-Filter, um Tracking-Parameter wie `utm_*` und `fb_ref` von Seiten-URLs.
 
+### Block fingerprinting {#fingerprinting}
+
+This feature prevents websites from identifying your browser and device by canvas fingerprinting.
+
+A canvas is a web page element for drawing images. A website can draw hidden text and shapes on a canvas and read the result back. The result depends on your device, graphics hardware, fonts, and browser, so it can identify you even without cookies.
+
+With this feature enabled, AdGuard slightly changes the images that websites read from a canvas. The changes are too small to see. Until you restart the browser or AdGuard is updated, each website gets the same changed result. Other websites get different results, so the result can’t be used to recognize you across websites.
+
+What you see on the page does not change. The feature does not cover WebGL and WebGPU fingerprinting or canvases drawn in web workers. Some websites may detect the protection or work around it.
+
+:::caution
+
+Web apps that export images from a canvas, such as online image editors, may get slightly changed images. If a website works incorrectly, add it to the allowlist or turn off the protection for it with a [rule](/general/ad-filtering/create-own-filters#stealth-modifier) like `@@||example.com^$stealth=fingerprinting`.
+
+:::
+
+:::note
+
+Available in [AdGuard Browser Extension](/adguard-browser-extension/features/stealth-mode#fingerprinting) v5.6 or later.
+
+:::
+
 ### Suchanfragen verbergen {#searchqueries}
 
 Diese Funktion verbirgt Ihre Suchanfragen vor Websites, die Sie über Suchmaschinenergebnisse besuchen. Wenn Sie beispielsweise eine Website über eine Suchmaschine wie Google oder Yahoo öffnen, blendet diese Funktion die Suchanfrage aus, mit der Sie diese Website gefunden haben.
@@ -131,7 +153,7 @@ Das Aktivieren dieser Option kann die Funktion bestimmter Browseranwendungen bee
 
 :::note
 
-In AdGuard Browser Extension, *Block WebRTC* is applied globally and cannot be controlled on a per-site basis. Exception rules like `@@||example.com^$stealth=webrtc` are not supported. For per-site WebRTC control, use the full-fledged AdGuard app for Windows, Mac, or Android.
+In der AdGuard-Browsererweiterung gilt *WebRTC sperren* für alle Websites und lässt sich nicht für einzelne Websites steuern. Ausnahmeregeln wie `@@||example.com^$stealth=webrtc` werden nicht unterstützt. Für die WebRTC-Steuerung auf einzelnen Websites nutzen Sie bitte die vollwertige AdGuard-App für Windows, Mac oder Android.
 
 :::
 

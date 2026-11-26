@@ -1,9 +1,9 @@
 ---
-title: So debuggen Sie Regeln in AdGuard für Chrome MV3
+title: So debuggen Sie Regeln in der MV3-Erweiterung
 sidebar_position: 2
 ---
 
-In [AdGuard für Chrome MV3](/adguard-browser-extension/mv3-version) zeigt das Filter-Protokoll nur die ungefähren Regeln an, die angewendet wurden, die wir „mutmaßliche Regeln“ nennen. Dies liegt daran, dass der Browser keine Details darüber liefert, welche spezifischen deklarativen Regeln verwendet wurden, es sei denn, die Erweiterung liegt in einem „entpackten" Format vor. Um genaue Informationen zu erhalten, müssen Sie die entpackte Version der Erweiterung selbst in Ihrem Browser installieren.
+In der [AdGuard-Browsererweiterung MV3](/adguard-browser-extension/mv3-version) zeigt das Filterprotokoll nur ungefähr an, welche Regeln angewendet wurden. Wir nennen sie „vermutete Regeln“. Dies liegt daran, dass der Browser keine Details darüber liefert, welche spezifischen deklarativen Regeln verwendet wurden, es sei denn, die Erweiterung liegt in einem „entpackten" Format vor. Um genaue Informationen zu erhalten, müssen Sie die entpackte Version der Erweiterung selbst in Ihrem Browser installieren.
 
 Diese Anweisungen sind auch für problematische Fälle gedacht, in denen Sie die statisch mit der Erweiterung gelieferten Regeln ändern wollen. In den meisten Fällen sollte die Verwendung von _Benutzerregeln_ in der Erweiterung ausreichen.
 
@@ -55,7 +55,9 @@ Diese Anweisungen sind auch für problematische Fälle gedacht, in denen Sie die
    yarn dev chrome-mv3
    ```
 
-3. Die erstellte Erweiterung befindet sich in diesem Ordner:
+3. Für Opera führen Sie stattdessen `yarn dev opera-mv3` aus – die kompilierte Erweiterung befindet sich im Verzeichnis `./build/dev/opera-mv3`.
+
+4. Die erstellte Erweiterung befindet sich in diesem Ordner:
 
    ```bash
    ./build/dev/chrome-mv3

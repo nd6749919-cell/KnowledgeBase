@@ -9,9 +9,11 @@ sidebar_position: 6
 
 ### AdGuard 许可证
 
-- 翻译 **1000 个单词**可以获取您的第一个一年广告拦截程序许可证。
-- **额外翻译 1500 个单词**（总共 2500 个单词）可以获得第二个许可证。
-- 在此之后，每年许可证需要**额外 2500 个单词**的翻译。
+Translate **1,000 words** and choose one: a **one-year AdGuard Ad Blocker license for one device** or **one more device added to your existing license**. You can claim one reward for each benchmark.
+
+Translate **1,500 more words** (2,500 in total) to choose again. After that, you can make the same choice for every **2,500 additional words**.
+
+For example, if you translated a total of 5,000 words, you can either request a three-year AdGuard Ad Blocker license for one device, a two-year license for two devices, or a one-year license for three devices.
 
 ### AdGuard VPN 许可证
 
@@ -20,7 +22,7 @@ sidebar_position: 6
 
 :::note 限制
 
-作为贡献的奖励，我们提供有效期最长为 5 年的许可证和订阅。 我们提供可连接 5 台设备的广告拦截程序许可证。 我们不提供终身许可证。
+作为贡献的奖励，我们提供有效期最长为 5 年的许可证和订阅。我们提供可连接 5 台设备的广告拦截程序许可证。我们不提供终身许可证。
 
 :::
 
@@ -37,11 +39,11 @@ sidebar_position: 6
 
 > 您好，AdGuard 团队！
 > 
-> 我已经在 Android 版 AdGuard 中翻译了超过 5000 个单词（*您翻译的语言*）。您可以查看附上的统计信息。 作为回报，我想申请 AdGuard VPN 许可证和一个广告拦截程序许可证。 我的邮箱是：*您的邮箱地址*。 我的 Crowdin 用户名是 (*您的用户名*)。
+> 我已经在 Android 版 AdGuard 中翻译了超过 5000 个单词（*您翻译的语言*）。您可以查看附上的统计信息。作为回报，我想申请 AdGuard VPN 许可证和一个广告拦截程序许可证。 我的邮箱是：*您的邮箱地址*。我的 Crowdin 用户名是 (*您的用户名*)。
 
 ## 如何检查翻译进度
 
-打开您正在翻译的项目，单击「报告」（英文：Reports）选项卡，选择「我的贡献」（英文：My Contribution），向下滚动，选择日期范围，然后生成报告。 查看以下截图：
+打开您正在翻译的项目，单击「报告」（英文：Reports）选项卡，选择「我的贡献」（英文：My Contribution），向下滚动，选择日期范围，然后生成报告。查看以下截图：
 
 ![统计数字 *border](https://cdn.adtidy.org/content/kb/ad_blocker/miscellaneous/adguard_translations/statistics.png)
 
@@ -49,9 +51,9 @@ sidebar_position: 6
 
 ## 如何成为校对员
 
-我们最活跃的翻译者未来可能会被考虑晋升为校对员。 要成为校对员，您需要在几个月内持续提供高质量的翻译。
+我们最活跃的翻译者未来可能会被考虑晋升为校对员。要成为校对员，您需要在几个月内持续提供高质量的翻译。
 
-请注意，校对员除了帮助更多人使用自己语言的 AdGuard 服务外，并不会获得额外的许可证或福利。 如果您有兴趣成为我们的校对员之一，请联系 translate@adguard.com。
+请注意，校对员除了帮助更多人使用自己语言的 AdGuard 服务外，并不会获得额外的许可证或福利。如果您有兴趣成为我们的校对员之一，请联系 translate@adguard.com。
 
 ## 给活跃贡献者的礼物
 

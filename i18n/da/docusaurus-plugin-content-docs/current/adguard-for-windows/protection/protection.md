@@ -3,20 +3,24 @@ title: Beskyttelse
 sidebar_position: 1
 ---
 
-![Protection tab \*border](https://cdn.adtidy.org/content/kb/ad_blocker/windows/version_8/protection/protection_section.png)
+![Startskærm \*border](https://cdn.adtidy.org/content/kb/ad_blocker/windows/version_8/main_screen.png)
 
-The _Protection_ tab contains all key security and filtering settings. Here you can control _Ad blocking_, _Tracking protection_, _Annoyance blocking_, _DNS protection_, _Browsing security_, _Parental control_, and _Extensions_. You can also manage AdGuard Assistant here — a tool that lets you control its functionality without opening the app. Each of these features is described in a separate article.
+På startskærmen findes en til/fra knap til at aktivere/deaktivere AdGuard-beskyttelse samt ikoner til _Adblocking_, _Sporingsbeskyttelse_, _DNS-beskyttelse_ og _Irritationsblokering_. Hovedindstillinger kan tilgås via menuen til venstre.
 
-[Ad blocking](/adguard-for-windows/protection/ad-blocking)
+![Fanen Beskyttelse \*border](https://cdn.adtidy.org/content/kb/ad_blocker/windows/version_8/protection/protection_section.png)
 
-[Tracking protection](/adguard-for-windows/protection/tracking-protection)
+Fanen _Beskyttelse_ indeholder alle vigtige sikkerheds- og filtreringsindstillinger. Her er det muligt at styre _Adblocking_, _Sporingsbeskyttelse_, _Irritationsblokering_, _DNS-filtrering_, _Browsingsikkerhed_, _Forældrekontrol_ og _Udvidelser_. Her kan også AdGuard Assistent håndteres – et værktøj, der muliggør at kontrollere appens funktionalitet uden at åbne den. Hver af disse funktioner er beskrevet i en særskilt artikel.
 
-[Annoyance blocking](/adguard-for-windows/protection/annoyance-blocking)
+[Adblocking](/adguard-for-windows/protection/ad-blocking)
 
-[DNS protection](/adguard-for-windows/protection/dns-protection)
+[Sporingsbeskyttelse](/adguard-for-windows/protection/tracking-protection)
 
-[Browsing security](/adguard-for-windows/protection/browsing-security)
+[Irritationsblokering](/adguard-for-windows/protection/annoyance-blocking)
 
-[Parental control](/adguard-for-windows/protection/parental-control)
+[DNS-beskyttelse](/adguard-for-windows/protection/dns-protection)
 
-[Extensions](/adguard-for-windows/protection/extensions)
+[Browsingsikkerhed](/adguard-for-windows/protection/browsing-security)
+
+[Forældrekontrol](/adguard-for-windows/protection/parental-control)
+
+[Udvidelser](/adguard-for-windows/protection/extensions)

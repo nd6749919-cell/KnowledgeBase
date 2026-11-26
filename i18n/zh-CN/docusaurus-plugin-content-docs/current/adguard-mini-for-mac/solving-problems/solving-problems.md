@@ -5,7 +5,7 @@ sidebar_position: 1
 
 :::info
 
-这篇文章是关于 Mac 版的 AdGuard Mini，用于 Safari 浏览器的保护。 要全面保护设备，请[下载 AdGuard 应用程序](https://agrd.io/download-kb-adblock)。
+这篇文章是关于 Mac 版的 AdGuard Mini，用于 Safari 浏览器的保护。要全面保护设备，请[下载 AdGuard 应用程序](https://agrd.io/download-kb-adblock)。
 
 :::
 
@@ -16,3 +16,4 @@ sidebar_position: 1
 - [禁用 AdGuard Mini 后过滤不停止](/adguard-mini-for-mac/solving-problems/filters-after-disable.md)
 - [如何在 Mac 版 AdGuard Mini 中收集日志](/adguard-mini-for-mac/solving-problems/logs.md)
 - [AdGuard Mini 在 macOS Sonoma 的隐私标签页中无法正常工作](/adguard-mini-for-mac/solving-problems/private-sonoma.md)
+- [Why AdGuard Mini appears in Full Disk Access on macOS](/adguard-mini-for-mac/solving-problems/adguard-mini-in-full-disk-access.md)

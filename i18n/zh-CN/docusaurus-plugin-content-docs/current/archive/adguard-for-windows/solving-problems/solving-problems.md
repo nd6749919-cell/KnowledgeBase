@@ -5,11 +5,11 @@ sidebar_position: 1
 
 :::info
 
-本文适用于 Windows 版的 AdGuard，它是一种多功能广告拦截器，可在系统级别保护用户的设备。 要了解其工作原理，请[下载 AdGuard 应用程序](https://agrd.io/download-kb-adblock)
+本文适用于 Windows 版的 AdGuard，它是一种多功能广告拦截器，可在系统级别保护用户的设备。要了解其工作原理，请[下载 AdGuard 应用程序](https://agrd.io/download-kb-adblock)
 
 :::
 
-以下是用户会遇到的一些问题以及可能需要的解决方法、指南和指示说明。
+以下是用户会遇到的一些问题以及可能需要的解决方法、指南和说明。
 
 - [WFP driver compatibility](/archive/adguard-for-windows/solving-problems/wfp-driver/)
 - [Certificate-related issues](/archive/adguard-for-windows/solving-problems/connection-not-trusted/)

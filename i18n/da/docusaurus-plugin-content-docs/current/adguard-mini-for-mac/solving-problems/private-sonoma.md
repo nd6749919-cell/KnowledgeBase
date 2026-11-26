@@ -5,18 +5,18 @@ sidebar_position: 5
 
 :::info
 
-This article is about AdGuard Mini for Mac, which safeguards only your Safari browser. To protect your Mac entirely, [download the AdGuard app](https://agrd.io/download-kb-adblock)
+Denne artikel omhandler AdGuard Mini til Mac, der kun beskytter Safari-webbrowseren. For at beskytte Mac'en helt, [download AdGuard-appen](https://agrd.io/download-kb-adblock)
 
 :::
 
-## How to fix
+## Sådan udbedres dette
 
-1. Open Safari.
-2. Click _Safari_ in the left upper corner menu.
-3. Click _Settings…_ → _Extensions_.
-4. Check _Allow in Private Browsing_ for all AdGuard extensions.
-   ![Checked private browsing](https://cdn.adtidy.org/content/Kb/ad_blocker/safari/adg-safari-sonoma-private.png)
+1. Åbn Safari.
+2. Klik på _Safari_ i menuen øverste til venstre.
+3. Klik på _Indstillinger…_ → _Udvidelser_.
+4. Markér _Tillad i Private browsing_ for alle AdGuard-udvidelser.
+   ![Markeret Private Browsing](https://cdn.adtidy.org/content/Kb/ad_blocker/safari/adg-safari-sonoma-private.png)
 
-If this doesn’t help and ads are still not being blocked, please contact our support at support@adguard.com.
+Hjælper dette ikke, og annoncer stadig ikke bliver blokeret, kontakt vores support via support@adguard.com.
 
 If you only have problems with a specific page or website, you can report it directly from the browser: click the AdGuard Mini icon next to the Safari search bar, and then click _Report an issue_.
